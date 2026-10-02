@@ -2,7 +2,7 @@
 
 **One control plane for AI. Local when possible, cloud when needed.**
 
-A hackathon demo by Sid, Piranavan, and Paul that turns a chat request into a configurable
+A hackathon demo by Sid, Piranavan, and Frank that turns a chat request into a configurable
 execution pipeline. A React chat UI sits on FastAPI/Pydantic, with llama.cpp for
 local MiniCPM and Qwen inference and adapters for Gemini, OpenAI, and Anthropic.
 
