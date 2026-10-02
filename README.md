@@ -23,6 +23,17 @@ and evaluation; local or configured cloud models generate answers. Gemini has
 been tested end-to-end in this local setup. Other cloud providers require keys,
 model IDs, and deployment metadata.
 
+## Watch the demo
+
+[![Watch the 29-second adaptive routing demo](docs/demo/preview.jpg)](docs/demo/corner-crew-three-models.mp4)
+
+**[Watch or download the 29-second video](docs/demo/corner-crew-three-models.mp4).**
+Three requests, automatic model selection: a polite rewrite handled by local
+MiniCPM, an inventory-locking comparison handled by local Qwen, and a distributed
+payment-system design routed to Gemini. The selected model and execution trace
+remain visible in the UI. The recording uses a six-call budget, a 20-second latency
+target, and a 25-second wall-time limit per request.
+
 ## Main differentiators
 
 - **Policy-aware routing:** provider allowlists, privacy rules, and configured
